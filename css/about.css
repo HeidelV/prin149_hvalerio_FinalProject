@@ -1,0 +1,268 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* --------ABOUT US PAGE---------*/
+header{
+	min-height: 596px;
+	background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url(../img/bg6.png);
+	background-size: cover;
+	background-position: center;
+	padding: 60px;
+}
+
+/*-----Navbar------*/
+.navbar{
+	background-color: #1c1c1c;
+	min-height: 10vh;
+	display: flex;
+	align-items: center;
+}
+
+.row{
+	padding-top: 20px;
+}
+
+.logo{
+	width: auto;
+	height: 60px;
+}
+
+.navbar .nav-item .nav-link {
+    color: white;
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.nav-item{
+	text-decoration: none;!important
+	color: white;
+	text-transform: uppercase;
+}
+
+/* HOVER EFFECTS */
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.5s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+  transform: translateY(-8px);
+  color: blue;
+}
+/*------End of Navbar-------*/
+
+.about-main-title{
+	text-align: center;
+	font-family: 'Aoboshi One', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 64px;
+	padding-bottom: 30px;
+	color: #87964A;
+	padding-top: 30px;
+}
+
+.about-description{
+	text-align: center;
+	font-family: 'Halant';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	letter-spacing: 0.02em;
+}
+
+.btn-about{
+	display: block;
+	width: 256px;
+	height: 79px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;
+
+
+	background: #87964A;
+	border: 4px solid #FFFFFF;
+	border-radius: 0;
+
+	font-family: 'Times New Roman';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover,
+a:active{
+	text-decoration: none
+}
+
+.btn-about:hover,
+.btn-about:active{
+  background-color: transparent;
+  border: 2px solid #87964A;
+  color: #87964A;
+  transition: 0.5s;
+}
+
+.section1{
+	width: 100%;
+	min-height: 582px;
+	background-color: white;
+	background-size: cover;
+	background-position: center;
+}
+
+.section2{
+	width: 100%;
+	min-height: 602px;
+	background-color: #F2EDE3;
+	background-size: cover;
+	background-position: center;
+}
+
+.about-pic1{
+	width: 100%;
+	height: 431px;
+	background-size: cover;
+	background-position: center;
+
+	background-image: url(../img/bg3.jpg);
+	border-radius: 8px;
+}
+
+.about-pic2{
+	width: 100%;
+	height: 431px;
+	background-size: cover;
+	background-position: center;
+
+	background-image: url(../img/beans.png);
+	border-radius: 8px;
+}
+
+.about-wrap{
+	width: 100%;
+	height: 431px;
+}
+
+.about-title{
+	font-family: 'IM FELL Double Pica';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 38px;
+	line-height: 48px;
+	letter-spacing: 0.02em;
+	padding-top: 40px;
+	padding-bottom: 20px;
+
+	color: #B98F41;
+}
+
+.about-desc{
+	font-family: 'Halant';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 30px;
+	line-height: 47px;
+	text-align: justify;
+	letter-spacing: 0.02em;
+
+	color: #000000;
+}
+
+.btn-menu{
+	display: block;
+	width: 256px;
+	height: 79px;
+	margin-left: auto;
+	margin-right: auto;
+
+
+	background: #87964A;
+	border: 4px solid #FFFFFF;
+	border-radius: 0;
+
+	font-family: 'Times New Roman';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 25px;
+	color: white;
+}
+
+/*-----------Footer----------*/
+footer{
+	min-height: 374px;
+	background-color: #1c1c1c;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.logo2{
+	width: 120px;
+	height: auto;
+}
+
+footer li{
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+footer ul{
+	display: flex;
+	display: inline-block;
+	padding: 0; !important
+}
+
+.newsletter{
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	padding-left: 100px;
+}
+
+.socmeds{
+	display: inline-block;
+	text-align: center;
+	font-size: 30px;
+}
+
+.fa-brands{
+	text-align: center;
+	padding-right: 35px;
+}
+
+.footer-title{
+	color: #89A78E;
+}
+
+.row2{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.be-the-first{
+	font-family: 'IM Fell Double Pica', serif;
+	font-size: 20px;
+}
+/*---------End of Footer---------*/
+

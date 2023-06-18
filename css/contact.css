@@ -1,0 +1,294 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* --------CONTACT US PAGE---------*/
+header{
+	min-height: 100vh;
+	background-color: #F5F2F2;
+	background-size: cover;
+	background-position: center;
+}
+
+/*-----Navbar------*/
+.navbar{
+	background-color: #1c1c1c;
+	min-height: 10vh;
+	display: flex;
+	align-items: center;
+}
+
+.logo{
+	width: auto;
+	height: 60px;
+}
+
+.navbar .nav-item .nav-link {
+    color: white;
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.nav-item{
+	text-decoration: none;!important
+	color: white;
+	text-transform: uppercase;
+}
+
+/* HOVER EFFECTS */
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.5s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+  transform: translateY(-8px);
+  color: blue;
+}
+/*------End of Navbar-------*/
+
+.section1{
+	width: 100%;
+	min-height: 450px;
+	background-color: white;
+}
+
+.section2{
+	width: 100%;
+	min-height: 672px;
+	background-color: white;
+	background-size: cover;
+	background-position: center;
+}
+
+.col-wrap{
+	padding-top: 200px;
+}
+
+.support{
+	font-family: 'IM FELL Double Pica';
+	color: #B98F41;
+}
+
+.touch{
+	font-family: 'IM FELL Double Pica';
+	font-weight: 100;
+	color: #595959;
+}
+
+/*-----------Footer----------*/
+footer{
+	min-height: 374px;
+	background-color: #1c1c1c;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.logo2{
+	width: 120px;
+	height: auto;
+}
+
+footer li{
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+footer ul{
+	display: flex;
+	display: inline-block;
+	padding: 0; !important
+}
+
+.newsletter{
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	padding-left: 100px;
+}
+
+.socmeds{
+	display: inline-block;
+	text-align: center;
+	font-size: 30px;
+}
+
+.fa-brands{
+	text-align: center;
+	padding-right: 35px;
+}
+
+.footer-title{
+	color: #89A78E;
+}
+
+.row2{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.be-the-first{
+	font-family: 'IM Fell Double Pica', serif;
+	font-size: 20px;
+}
+/*---------End of Footer---------*/
+
+/*---------CONTACT FORM-----------*/
+.column-contact{
+  border-right: 3px solid black;
+}
+
+.header-contact{
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+  font-family: "Bebas Neue";
+  letter-spacing: 3px;
+  border-left: 5px solid black;
+  width: 300px;
+  margin-right: auto;
+}
+
+.column-contact .form{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.column-contact .form .inputfield{
+  margin-bottom: 15px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.column-contact .form .inputfield label{
+  width: 130px;
+  margin-right: 10px;
+  font-size: 14px;
+  color: black;
+  font-family: "Maven Pro";
+  text-transform: uppercase;
+}
+
+.column-contact .form .inputfield .input{
+  width: 100%;
+  outline: none;
+  border: 1px solid black;
+  font-size: 15px;
+  padding: 8px 10px;
+  border-radius: 3px;
+  transition: all 3s ease;
+}
+
+.column-contact .inputfield .textarea{
+  width: 100%;
+  height: 155px;
+  resize: none;
+}
+
+.column-contact .form .inputfield .textarea{
+  font-size: 15px;
+  padding: 8px 10px;
+}
+
+.btn-form:link,
+.btn-form:visited{
+  border: 2px solid black;
+  background-color: black;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  transition: 0.5s;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+  width: 150px;
+  padding: 10px;
+  font-family: "Maven Pro";
+  text-transform: uppercase;
+}
+
+.btn-about{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	text-align: center;
+	width: 150px;
+	padding: 10px;
+	text-transform: uppercase;
+	border-radius: 10px;
+
+	background: #87964A;
+	border: 4px solid #FFFFFF;
+	border-radius: 0;
+
+	font-family: 'Times New Roman';
+	font-style: normal;
+	font-weight: 400;
+	color: white;
+}
+
+.btn-about:hover,
+.btn-about:active{
+  background-color: transparent;
+  border: 2px solid #87964A;
+  color: #87964A;
+  transition: 0.5s;
+}
+
+.contact-list{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 80px;!important
+}
+
+.contact{
+  list-style-type: none;
+  display: inline-block;
+}
+
+.contacts{
+  display: flex;
+  align-items: center;
+  font-family: 'IM FELL Double Pica';
+  word-break: break-all;
+}
+
+.envelope{
+	font-size: 40px;
+	padding-right: 10px;
+	color: #B98F41;
+}
+
+.location{
+	font-size: 40px;
+	padding-right: 15px;
+	text-align: center;
+	margin: auto;
+	color: #B98F41;
+	padding-left: 5px;
+}
+
+ul{
+	padding: 0;
+}
+/*---------END OF CONTACT FORM-----------*/

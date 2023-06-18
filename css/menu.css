@@ -1,0 +1,248 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* --------MENU PAGE---------*/
+header{
+	min-height: 650px;
+	background-color: #87964A;
+	background-size: cover;
+	background-position: center;
+}
+
+
+.latte{
+	width: auto;
+	height: 600px;
+	left: 104px;
+	padding-left: 150px;
+
+	background: url(icedlatte.png);
+}
+
+/*-----Navbar------*/
+.navbar{
+	background-color: #1c1c1c;
+	min-height: 10vh;
+	display: flex;
+	align-items: center;
+}
+
+.logo{
+	width: auto;
+	height: 60px;
+}
+
+.navbar .nav-item .nav-link {
+    color: white;
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.nav-item{
+	text-decoration: none;!important
+	color: white;
+	text-transform: uppercase;
+}
+
+/* HOVER EFFECTS */
+.hvr-float {
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.5s;
+  transition-property: transform;
+  transition-timing-function: ease-out;
+}
+
+.hvr-float:hover,
+.hvr-float:focus,
+.hvr-float:active {
+  transform: translateY(-8px);
+  color: blue;
+}
+/*------End of Navbar-------*/
+
+.section1{
+	width: 100%;
+	min-height: 450px;
+	background-color: white;
+}
+
+.polygon{
+	top: 730px;
+	z-index: 1;
+}
+
+.section2{
+	width: 100%;
+	min-height: 672px;
+	background-color: white;
+	background-size: cover;
+	background-position: center;
+}
+
+.menu{
+	width: 100%;
+	object-fit: cover;
+	height: 360px;
+	border-radius: 5px;
+	background-size: cover;
+	background-position: center;
+}
+
+.menu-wrap{
+	padding-top: 35px;
+	padding-bottom: 35px;
+}
+
+.menu-latest{
+	color: #fffa92;
+}
+
+.menu-title {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #000; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+   font-family: 'IM FELL Double Pica';
+   font-size: 65px;
+} 
+
+.small-title{
+	font-family: 'IM FELL Double Pica';
+	color: #595959;
+	padding-bottom: 40px;
+	padding-top: 5px;
+	font-size: 35px;
+}
+
+.menu-title span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+
+.coffee{
+	color: #B98F41;
+}
+
+.lines{
+	position: absolute;
+	width: 17px;
+	height: 1452px;
+	left: 454px;
+	top: 1437px;
+	z-index: 0;
+	margin: auto;
+}
+
+.row{
+/*	padding-top: 60px;*/
+}
+
+.col-wrap{
+	padding-top: 200px;
+}
+
+.iced-text{
+	font-family: 'Aoboshi One', serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 85px;
+}
+
+.polygon{
+	width: 100%;
+	padding: 0; !important
+
+	background-color: white;
+	position: absolute;
+}
+
+.food-title{
+	font-family: 'Geologica', sans-serif;
+	color: #5E482A;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.food-desc{
+	font-family: 'Halant', serif;
+	font-weight: 200;
+	line-height: 45px;
+	text-align: justify;
+}
+
+/*-----------Footer----------*/
+footer{
+	min-height: 374px;
+	background-color: #1c1c1c;
+	padding-left: 50px;
+	padding-right: 50px;
+	-webkit-box-shadow: 0px -8px 19px 0px rgba(135,150,74,0.83);
+	-moz-box-shadow: 0px -8px 19px 0px rgba(135,150,74,0.83);
+	box-shadow: 0px -8px 19px 0px rgba(135,150,74,0.83);
+	margin-top: 30px;
+}
+
+.logo2{
+	width: 120px;
+	height: auto;
+}
+
+footer li{
+	text-decoration: none;
+	list-style-type: none;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+footer ul{
+	display: flex;
+	display: inline-block;
+	padding: 0; !important
+}
+
+.newsletter{
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	padding-left: 100px;
+}
+
+.socmeds{
+	display: inline-block;
+	text-align: center;
+	font-size: 30px;
+}
+
+.fa-brands{
+	text-align: center;
+	padding-right: 35px;
+}
+
+.footer-title{
+	color: #89A78E;
+}
+
+.row2{
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
+.be-the-first{
+	font-family: 'IM Fell Double Pica', serif;
+	font-size: 20px;
+}
+/*---------End of Footer---------*/
+
+
